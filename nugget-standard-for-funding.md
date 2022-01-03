@@ -8,3 +8,7 @@ This function then takes care of forwarding supplied funds (either approved befo
 In case the AMM requires initialization beforehand a compliant contract can implement a function:
 
 `function init([arbitrary parameters]) external;`
+
+The according interface is located at:
+
+`interfaces/IFunding.sol`
